@@ -1,5 +1,5 @@
 # categorization-tree-builder
-Categorization tree builder (Fast and frugal trees (FFT))[^1].
+Categorization tree builder ([Fast and frugal trees (FFT)][1]).
 
 # Overview
 
@@ -64,6 +64,6 @@ As the user builds the tree manually, checking the Statistics box (left green re
 
 
 
-[^1]: The following is an assignment made by me for a UCL Programming course.
-[^2]: Martignon, L., Vitouch, O., Takezawa, M., & Forster, M. R. (2003). Naive and yet enlightened: From natural frequencies to fast and frugal decision trees. Thinking: Psychological perspective on reasoning, judgment, and decision making, 189-211.
-[^3]: Comparisons in numerical cues are done as expected. Comparisons in cues that are not numerical (i.e. that are text) are done alphabetically. For example, “Female” < “Male” is a True statement because the word “Female” alphabetically precedes the word “Male”. 
+[1]: The following is an assignment made by me for a UCL Programming course.
+[2]: Martignon, L., Vitouch, O., Takezawa, M., & Forster, M. R. (2003). Naive and yet enlightened: From natural frequencies to fast and frugal decision trees. Thinking: Psychological perspective on reasoning, judgment, and decision making, 189-211.
+[3]: Comparisons in numerical cues are done as expected. Comparisons in cues that are not numerical (i.e. that are text) are done alphabetically. For example, “Female” < “Male” is a True statement because the word “Female” alphabetically precedes the word “Male”. 
