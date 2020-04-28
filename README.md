@@ -26,7 +26,7 @@ Given this dataset, a goal could be to predict the value of **High Risk** using 
 After the Category values have been set, the user can start building the tree by manually adding binary nodes, by loading a tree from a file or by running an automatic optimization algorithm. 
 
 ## Step 1: load a dataset
-image
+![alt text](https://github.com/panchoqv/categorization-tree-builder/blob/master/readme-images/1.png?raw=true)
 
 There are two default datasets in the software’s folder. One is called results.csv and the other one is results2.csv. Any of them can be used to test the software. Also, any other dataset can be loaded to the software as long as these restrictions apply:
 
@@ -36,7 +36,7 @@ There are two default datasets in the software’s folder. One is called results
 - No cell should be empty.
 
 ## Step 2: set category settings
-image
+![alt text](https://github.com/panchoqv/categorization-tree-builder/blob/master/readme-images/2.png?raw=true)
 
 Once the dataset is loaded, a tree will appear. At these moment, there are three options to follow:
 
@@ -48,12 +48,12 @@ If the second option is chosen, there is a tree file in the software’s folder 
 If the first option is chosen, the first thing to do is to set the category settings. First, the category cue has to be chosen and then its true value. Remember that these two settings define the target value against which the data-points will be defined as within-category or out-of-category (as explained in the Procedure section).
 
 ## Step 3: build tree
-image
+![alt text](https://github.com/panchoqv/categorization-tree-builder/blob/master/readme-images/3.png?raw=true)
 
 To build a tree, there are three settings for each node (see the green rectangle on the right). These settings are: Cue, Operation, Value. The way in which this works is that every data-point that reaches the node will be divided to the left or to the right of the node, depending on whether the node categorized the data-point as having a True or False value against the node settings, respectively.
 For example, let us say that a data-point has this data: [Age=23, Gender=Female]. The way how this data-point will flow in the previously shown tree is the following:
 
-image
+![alt text](https://github.com/panchoqv/categorization-tree-builder/blob/master/readme-images/4.png?raw=true)
 
 The first node specifies that every data-point that has an **Age < 22** will be categorized as True and hence go to the Left. Given that our example has Age=23, then it was categorized as False and hence goes to the Right of the Node. Then, the next Node has a configuration of **Gender ≤ Female**[3] and our example has a value of Gender=Female, the data-point is categorized as True (hence it foes to the Left of the Node).
 
@@ -76,11 +76,12 @@ From a software engineering perspective, the software separated the Controller, 
 ## Other highlights
 1. The software checks that the loaded tree cues exist in the current dataset before loading the tree.
 2. Greedy tree optimization: it creates tree that optimizes (greedily) the categorization of a tree. A nice way to try it is by:
-  1. Loading results.csv dataset
-  2. Setting the Category to Gender and the True Value to Female
-  3. Pressing the Greedy tree optimization option in the Optimize menu
-  4. This should bring calculate a greedy tree that will automatically show the following:
+    1. Loading results.csv dataset
+    2. Setting the Category to Gender and the True Value to Female
+    3. Pressing the Greedy tree optimization option in the Optimize menu
+    4. This should bring calculate a greedy tree that will automatically show the following:
 
+![alt text](https://github.com/panchoqv/categorization-tree-builder/blob/master/readme-images/5.png?raw=true)
 
 # References
 [1]: The following is an assignment made by me for a UCL Programming course.
