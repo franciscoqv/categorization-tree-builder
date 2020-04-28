@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Fast-and-frugal Tree Builder</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="optionsWidget" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>230</width>
+        <height>500</height>
+       </size>
+      </property>
+      <widget class="QGroupBox" name="datasetBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>211</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Dataset file</string>
+       </property>
+       <widget class="QLineEdit" name="datasetText">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="loadDatasetButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>191</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Load dataset</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="treeBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>211</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Tree</string>
+       </property>
+       <widget class="QPushButton" name="saveTreeButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>191</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save current tree</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="loadTreeButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>191</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Load tree</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="categoryBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>211</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Category settings</string>
+       </property>
+       <widget class="QComboBox" name="categoryCombo">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>191</width>
+          <height>22</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="categoryLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>191</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Category</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="trueValueLabel">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>191</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Correct category value for left nodes</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="trueValueCombo">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>100</y>
+          <width>191</width>
+          <height>22</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="statisticsLabel">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>380</y>
+         <width>191</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>500</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>744</width>
+         <height>639</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFast_and_frugal_tree_creator">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_new_dataset"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_current_tree"/>
+    <addaction name="actionLoad_tree"/>
+    <addaction name="actionNew_tree"/>
+   </widget>
+   <widget class="QMenu" name="menuOptimize">
+    <property name="title">
+     <string>Optimize</string>
+    </property>
+    <addaction name="actionGreedy_tree_optimization"/>
+   </widget>
+   <addaction name="menuFast_and_frugal_tree_creator"/>
+   <addaction name="menuOptimize"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_new_dataset">
+   <property name="text">
+    <string>Load dataset...</string>
+   </property>
+  </action>
+  <action name="actionSave_current_tree">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Save current tree...</string>
+   </property>
+  </action>
+  <action name="actionLoad_tree">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Load tree...</string>
+   </property>
+  </action>
+  <action name="actionNew_tree">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>New tree</string>
+   </property>
+  </action>
+  <action name="actionGreedy_tree_optimization">
+   <property name="text">
+    <string>Greedy tree optimization</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

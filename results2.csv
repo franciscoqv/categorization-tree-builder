@@ -1,0 +1,175 @@
+Date,Condition,Age,Education,Gender,Ambiguous Urn,Chosen Urn,OutputBall
+18:32.1,2,26,High school graduate,Female,1,0,red
+19:00.5,10,23,None,Female,0,1,blue
+19:26.8,100,36,Master's degree,Female,1,1,blue
+15:50.8,2,50,High school graduate,Male,0,0,red
+18:32.1,2,33,High school graduate,Female,1,0,red
+19:00.5,10,46,None,Female,0,1,blue
+19:26.8,100,23,High school graduate,Female,1,1,blue
+15:50.8,2,27,High school graduate,Male,0,0,red
+18:32.1,2,48,High school graduate,Female,1,0,red
+19:00.5,10,35,None,Female,0,1,blue
+19:26.8,100,26,Master's degree,Female,1,1,blue
+15:50.8,2,24,High school graduate,Male,0,0,red
+18:32.1,2,31,High school graduate,Female,1,0,red
+19:00.5,10,48,None,Female,0,1,blue
+19:26.8,100,40,Master's degree,Female,1,1,blue
+15:50.8,2,41,High school graduate,Male,0,0,red
+18:32.1,2,41,High school graduate,Female,1,0,red
+19:00.5,10,38,None,Female,0,1,blue
+19:26.8,100,29,Master's degree,Female,1,1,blue
+15:50.8,2,20,High school graduate,Male,0,0,red
+18:32.1,2,47,High school graduate,Female,1,0,red
+19:00.5,10,50,None,Female,0,1,blue
+19:26.8,100,50,Master's degree,Female,1,1,blue
+15:50.8,2,27,High school graduate,Male,0,0,red
+18:32.1,2,32,High school graduate,Male,1,0,red
+19:00.5,10,49,None,Female,0,1,blue
+19:26.8,100,40,Master's degree,Female,1,1,blue
+15:50.8,2,24,High school graduate,Female,0,0,red
+18:32.1,2,48,None,Female,1,0,red
+19:00.5,10,31,Master's degree,Female,0,1,blue
+19:26.8,100,36,Master's degree,Male,1,1,blue
+15:50.8,2,18,High school graduate,Female,1,0,red
+18:32.1,2,32,None,Female,0,1,blue
+19:00.5,10,48,Master's degree,Female,1,1,blue
+19:26.8,100,40,High school graduate,Male,0,0,red
+15:50.8,2,41,High school graduate,Female,1,0,red
+18:32.1,2,41,None,Female,0,1,blue
+19:00.5,10,38,High school graduate,Female,1,1,blue
+19:26.8,100,29,High school graduate,Male,0,0,red
+15:50.8,2,20,High school graduate,Female,1,0,red
+18:32.1,2,47,None,Female,0,1,blue
+19:00.5,10,50,Master's degree,Female,1,1,blue
+19:26.8,100,50,High school graduate,Male,0,0,red
+15:50.8,2,27,High school graduate,Female,1,0,red
+18:32.1,2,32,None,Female,0,1,blue
+19:00.5,10,49,Master's degree,Female,1,1,blue
+19:26.8,100,40,Master's degree,Female,1,0,blue
+15:50.8,2,47,High school graduate,Female,0,0,red
+18:32.1,2,41,High school graduate,Female,1,1,red
+19:00.5,2,34,None,Male,0,1,blue
+19:26.8,10,50,Master's degree,Female,1,0,blue
+15:50.8,100,22,High school graduate,Female,0,0,red
+18:32.1,2,40,High school graduate,Female,1,1,red
+19:00.5,2,37,None,Male,0,1,blue
+19:26.8,10,47,Master's degree,Male,1,0,blue
+15:50.8,100,21,High school graduate,Female,0,0,red
+18:32.1,2,18,High school graduate,Female,1,1,red
+19:00.5,2,30,None,Female,0,1,blue
+19:26.8,10,31,Master's degree,Female,1,0,blue
+15:50.8,100,36,High school graduate,Female,0,0,red
+18:32.1,2,23,High school graduate,Male,1,1,red
+19:00.5,2,46,None,Female,0,1,blue
+19:26.8,10,40,Master's degree,Female,1,0,blue
+15:50.8,100,40,High school graduate,Female,0,0,red
+18:32.1,2,40,None,Male,1,1,red
+19:00.5,2,18,Master's degree,Female,0,1,blue
+19:26.8,10,27,Master's degree,Female,1,0,blue
+15:50.8,100,22,High school graduate,Female,0,0,red
+18:32.1,2,32,Master's degree,Male,1,1,red
+19:00.5,2,29,High school graduate,Male,0,1,blue
+19:26.8,2,45,High school graduate,Female,1,0,blue
+15:50.8,2,21,High school graduate,Female,0,0,red
+18:32.1,10,26,Master's degree,Female,1,1,red
+19:00.5,100,23,High school graduate,Female,0,1,blue
+19:26.8,2,36,High school graduate,Female,1,0,blue
+15:50.8,2,50,Master's degree,Male,0,0,red
+18:32.1,10,33,High school graduate,Female,1,1,red
+19:00.5,100,46,High school graduate,Female,0,1,blue
+19:26.8,2,23,High school graduate,Female,1,0,blue
+15:50.8,2,27,High school graduate,Male,0,0,red
+18:32.1,10,48,None,Female,1,1,red
+19:00.5,100,35,Master's degree,Female,0,1,blue
+19:26.8,2,26,High school graduate,Female,1,0,blue
+15:50.8,2,24,High school graduate,Male,0,0,red
+18:32.1,10,31,None,Female,1,1,red
+19:00.5,100,30,Master's degree,Female,0,1,blue
+19:26.8,2,46,High school graduate,Female,1,0,blue
+15:50.8,2,24,High school graduate,Male,0,0,red
+18:32.1,10,43,None,Female,1,1,red
+18:32.1,100,19,Master's degree,Female,0,1,blue
+19:00.5,2,34,High school graduate,Female,1,0,blue
+19:26.8,2,19,None,Male,0,0,red
+15:50.8,2,40,Master's degree,Female,1,1,red
+18:32.1,10,27,Master's degree,Female,0,1,blue
+19:00.5,100,42,None,Female,1,0,blue
+19:26.8,2,33,Master's degree,Male,0,0,red
+15:50.8,2,44,High school graduate,Male,1,1,red
+18:32.1,10,22,High school graduate,Female,0,1,blue
+19:00.5,100,21,None,Female,1,0,blue
+19:26.8,2,24,Master's degree,Female,0,0,red
+15:50.8,2,48,High school graduate,Female,1,1,red
+18:32.1,10,31,High school graduate,Female,0,1,blue
+19:00.5,100,36,None,Male,1,0,blue
+19:26.8,2,18,Master's degree,Female,0,1,red
+15:50.8,2,32,High school graduate,Female,1,1,red
+18:32.1,10,48,None,Female,0,0,blue
+19:00.5,100,40,Master's degree,Male,1,0,blue
+19:26.8,2,41,Master's degree,Female,0,1,red
+15:50.8,2,41,None,Female,1,1,red
+18:32.1,10,38,Master's degree,Female,0,0,blue
+19:00.5,100,29,High school graduate,Male,1,0,blue
+19:26.8,2,20,High school graduate,Male,0,1,red
+15:50.8,2,47,None,Female,1,0,red
+18:32.1,10,50,Master's degree,Female,0,1,red
+19:00.5,100,50,High school graduate,Female,1,1,blue
+19:26.8,2,27,High school graduate,Female,0,0,blue
+15:50.8,2,32,None,Female,1,0,red
+18:32.1,10,49,Master's degree,Male,0,1,red
+19:00.5,100,40,High school graduate,Female,1,1,blue
+19:26.8,2,47,None,Female,0,0,blue
+15:50.8,2,41,Master's degree,Female,1,0,red
+18:32.1,10,34,Master's degree,Male,0,1,red
+19:00.5,100,50,None,Female,1,1,blue
+19:26.8,2,22,Master's degree,Female,0,0,blue
+15:50.8,2,40,High school graduate,Female,1,0,red
+18:32.1,10,37,High school graduate,Male,0,1,red
+19:00.5,100,47,None,Male,1,1,red
+19:26.8,2,21,Master's degree,Female,0,0,blue
+15:50.8,2,18,High school graduate,Female,1,0,blue
+18:32.1,10,30,High school graduate,Female,0,1,red
+19:00.5,100,31,None,Female,1,1,red
+19:26.8,2,36,Master's degree,Female,0,0,blue
+15:50.8,2,23,High school graduate,Male,1,0,blue
+18:32.1,10,46,None,Female,0,1,red
+19:00.5,100,40,Master's degree,Female,1,1,red
+19:26.8,2,40,Master's degree,Female,0,0,blue
+15:50.8,2,40,None,Male,1,0,blue
+18:32.1,10,18,Master's degree,Female,0,1,red
+19:00.5,100,27,High school graduate,Female,1,1,blue
+19:26.8,2,22,High school graduate,Female,0,0,blue
+15:50.8,2,32,None,Female,1,0,red
+18:32.1,2,29,Master's degree,Female,0,1,red
+19:00.5,10,45,Master's degree,Female,1,1,blue
+19:26.8,100,21,None,Male,0,0,blue
+15:50.8,2,22,Master's degree,Female,1,0,red
+18:32.1,2,32,High school graduate,Female,0,1,red
+19:00.5,10,29,High school graduate,Female,1,1,blue
+19:26.8,100,22,None,Male,0,0,blue
+15:50.8,2,32,Master's degree,Male,1,0,red
+18:32.1,2,29,High school graduate,Female,0,1,blue
+19:00.5,100,50,High school graduate,Female,1,1,blue
+19:26.8,2,22,None,Female,0,0,blue
+15:50.8,2,40,Master's degree,Male,1,0,red
+18:32.1,10,37,High school graduate,Female,0,1,red
+19:00.5,100,47,None,Female,1,1,red
+19:26.8,2,21,Master's degree,Female,0,0,blue
+15:50.8,2,18,Master's degree,Male,1,0,blue
+18:32.1,10,30,High school graduate,Female,0,1,red
+19:00.5,100,31,None,Female,1,1,red
+19:26.8,2,36,Master's degree,Female,0,0,blue
+15:50.8,2,23,High school graduate,Male,1,0,blue
+18:32.1,2,32,None,Female,0,1,red
+19:00.5,2,29,Master's degree,Female,1,1,red
+19:26.8,10,45,Master's degree,Female,0,0,blue
+15:50.8,100,21,None,Male,1,0,blue
+18:32.1,2,22,Master's degree,Female,0,1,red
+19:00.5,2,32,High school graduate,Female,1,1,blue
+19:26.8,10,29,High school graduate,Female,0,0,blue
+15:50.8,2,32,None,Male,1,0,red
+18:32.1,2,29,Master's degree,Male,0,1,red
+19:00.5,10,45,High school graduate,Female,1,1,blue
+19:26.8,100,21,High school graduate,Female,0,0,blue
+15:50.8,2,22,None,Female,1,0,red
+18:32.1,2,32,Master's degree,Male,0,1,red
